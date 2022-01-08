@@ -79,7 +79,7 @@ function chatBot() {
             ["A mutation slightly stronger than the delta"],
             ["You can test at locations such as Longs Drugs Pharmacies, Urgent Care Hawaii Ko Olina, Leeward Hawaii VA Clinic, Urgent Care  Hawaii, Waipahu Walgreens"]
         ],
-        alternative: ["Same", "Go on...", "ok...", "Try again", "I'm listening...", "I don't understand :/"],
+        alternative: ["This Question cannot be answered yet", "Can't answer that", "unsure yet", "Ask another question", "IDK yet ", "I don't understand :/"],
         coronavirus: ["Please stay home", "Wear a mask",    "Fortunately, I don't have COVID", "These are uncertain times"],
         botTyping: false,
         messages: [{
