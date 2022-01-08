@@ -80,7 +80,7 @@ function chatBot() {
             ["You can test at locations such as Longs Drugs Pharmacies, Urgent Care Hawaii Ko Olina, Leeward Hawaii VA Clinic, Urgent Care  Hawaii, Waipahu Walgreens"]
         ],
         alternative: ["This Question cannot be answered yet", "Can't answer that", "unsure yet", "Ask another question", "IDK yet ", "I don't understand :/"],
-        coronavirus: ["usnure about that", "check out the cdc website for that",    "I don't have COVID", "check out cdc.gov"],
+        coronavirus: ["unsure about that", "check out the cdc website for that",    "I don't have COVID", "check out cdc.gov"],
         botTyping: false,
         messages: [{
             from: 'bot',
