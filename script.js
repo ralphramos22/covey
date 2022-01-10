@@ -57,7 +57,7 @@ function chatBot() {
             ["Where can I get tested"]
         ],
         replies: [
-            ["Hello there", "Howz em!", "Was good my g", "Yoo!", "Howzit Brah"],
+            ["Hello there", "Howz em!", "Wats good my g", "Yoo!", "Howzit Brah"],
             ["COVID-19 (coronavirus disease 2019) is a disease caused by a virus named SARS-CoV-2 and was discovered in December 2019 in Wuhan, China. It is very contagious and has quickly spread around the world."],
             ["Symptoms such as fever, chills, cough, lost of taste or smell, sore throat, and trouble breathing"],
             ["Stay home, isolate, get medical care, ask your healthcare provider for any help, take medicine such as acetminophen to feel better, rest well"],
