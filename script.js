@@ -219,7 +219,7 @@ function chatBot() {
                     text: product
                 });
                 this.scrollChat();
-            }, ((product.length / 10) * 1000) + (Math.floor(Math.random() * 2000) + 1500))
+            }, ((product.length / 10) * 110) + (Math.floor(Math.random() * 20) + 15))
 
         },
         scrollChat: function() {
