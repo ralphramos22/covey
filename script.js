@@ -206,13 +206,12 @@ function chatBot() {
             // Keep messages at most recent
             this.scrollChat();
 
-            // Fake delay to seem "real"
+
             setTimeout(() => {
                 this.botTyping = true;
                 this.scrollChat();
             }, 1000)
 
-            // add bit message with Fake delay to seem "real"
             setTimeout(() => {
                 this.botTyping = false;
                 this.messages.push({
