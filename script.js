@@ -210,7 +210,7 @@ function chatBot() {
             setTimeout(() => {
                 this.botTyping = true;
                 this.scrollChat();
-            }, 1000)
+            }, 10)
 
             setTimeout(() => {
                 this.botTyping = false;
