@@ -54,10 +54,11 @@ function chatBot() {
             ["How many days does it take for symptoms appear"],
             ["What is the delta variant"],
             ["what is the omicron variant"],
-            ["Where can I get tested"]
+            ["Where can I get tested"],
+            ["is covid sexually transmitted"]
         ],
         replies: [
-            ["Hello there", "Howz em!", "Wats good my g", "Yoo!", "Howzit Brah"],
+            ["Hello there", "Howz em!", "Was good my g", "Yoo!", "Howzit Brah"],
             ["COVID-19 (coronavirus disease 2019) is a disease caused by a virus named SARS-CoV-2 and was discovered in December 2019 in Wuhan, China. It is very contagious and has quickly spread around the world."],
             ["Symptoms such as fever, chills, cough, lost of taste or smell, sore throat, and trouble breathing"],
             ["Stay home, isolate, get medical care, ask your healthcare provider for any help, take medicine such as acetminophen to feel better, rest well"],
@@ -77,7 +78,8 @@ function chatBot() {
             ["2-14 days after exposure"],
             ["A more infectious COVID mutation and cause more sever illnesses"],
             ["A mutation slightly stronger than the delta"],
-            ["You can test at locations such as Longs Drugs Pharmacies, Urgent Care Hawaii Ko Olina, Leeward Hawaii VA Clinic, Urgent Care  Hawaii, Waipahu Walgreens"]
+            ["You can test at locations such as Longs Drugs Pharmacies, Urgent Care Hawaii Ko Olina, Leeward Hawaii VA Clinic, Urgent Care  Hawaii, Waipahu Walgreens"],
+            ["not enough evidence"]
         ],
         alternative: ["This Question cannot be answered yet", "Can't answer that", "unsure yet", "Ask another question", "IDK yet ", "I don't understand :/"],
         coronavirus: ["unsure about that", "check out the cdc website for that",    "I don't have COVID", "check out cdc.gov"],
@@ -206,12 +208,13 @@ function chatBot() {
             // Keep messages at most recent
             this.scrollChat();
 
-
+            
             setTimeout(() => {
                 this.botTyping = true;
                 this.scrollChat();
             }, 10)
 
+            // add bit message with Fake delay to seem "real"
             setTimeout(() => {
                 this.botTyping = false;
                 this.messages.push({
