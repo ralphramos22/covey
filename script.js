@@ -41,7 +41,7 @@ function chatBot() {
             ["where can I get vaccinated", "vaccination spots"],
             ["What do I do if I get exposed"],
             ["How does a vaccine a work"],
-            ["ratio"],
+            ["How many cases are there in Hawaii"],
             ["what are the covid travel guidelines"],
             ["what are the types of tests"],
             ["how long do I quaratnine for"],
@@ -58,14 +58,14 @@ function chatBot() {
             ["is covid sexually transmitted"]
         ],
         replies: [
-            ["Hello there", "Howz em!", "Was good my g", "Yoo!", "Howzit Brah"],
+            ["Hello there", "Hi", "Hello", "Hi there", "Hi what are your questions about COVID-19?"],
             ["COVID-19 (coronavirus disease 2019) is a disease caused by a virus named SARS-CoV-2 and was discovered in December 2019 in Wuhan, China. It is very contagious and has quickly spread around the world."],
             ["Symptoms such as fever, chills, cough, lost of taste or smell, sore throat, and trouble breathing"],
             ["Stay home, isolate, get medical care, ask your healthcare provider for any help, take medicine such as acetminophen to feel better, rest well"],
             ["Walmart, Safeway, CVS, Queens Medical Center"],
             ["get tested, isolate, monitor symptoms"],
             ["Vaccines help develop immunity by imitating an infection"],
-            ["L ratio"],
+            ["https://health.hawaii.gov/coronavirusdisease2019/"],
             ["https://hawaiicovid19.com/travel/travel-overview/"],
             ["diagnostic and antibody "],
             ["Atleast 10 Days"],
@@ -81,8 +81,8 @@ function chatBot() {
             ["You can test at locations such as Longs Drugs Pharmacies, Urgent Care Hawaii Ko Olina, Leeward Hawaii VA Clinic, Urgent Care  Hawaii, Waipahu Walgreens"],
             ["not enough evidence"]
         ],
-        alternative: ["This Question cannot be answered yet", "Can't answer that", "unsure yet", "Ask another question", "IDK yet ", "I don't understand :/"],
-        coronavirus: ["unsure about that", "check out the cdc website for that",    "I don't have COVID", "check out cdc.gov"],
+        alternative: ["This Question cannot be answered yet", "Can't answer that", "unsure yet", "Ask another question", " ", "I don't understand :/"],
+        coronavirus: ["unsure about that", "check out cdc.gov"],
         botTyping: false,
         messages: [{
             from: 'bot',
