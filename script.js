@@ -81,7 +81,7 @@ function chatBot() {
             ["You can test at locations such as Longs Drugs Pharmacies, Urgent Care Hawaii Ko Olina, Leeward Hawaii VA Clinic, Urgent Care  Hawaii, Waipahu Walgreens"],
             ["not enough evidence"]
         ],
-        alternative: ["This Question cannot be answered yet", "Can't answer that", "unsure yet", "Ask another question", " ", "I don't understand :/"],
+        alternative: ["This Question cannot be answered yet", "I can't answer that question yet.", "I'm Unsure about that question.", "Ask another question", "Unable to Answer that question."],
         coronavirus: ["unsure about that", "check out cdc.gov"],
         botTyping: false,
         messages: [{
@@ -214,7 +214,7 @@ function chatBot() {
                 this.scrollChat();
             }, 10)
 
-            // add bit message with Fake delay to seem "real"
+           //bot typing animation
             setTimeout(() => {
                 this.botTyping = false;
                 this.messages.push({
